@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+        }
+        .container{
+                  margin: auto;
+                  width: 810px;
+        }
+        .header{
+            width: 100%;
+            height: 30%;
+            background-color: rgb(54, 68, 75);
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+
+        }
+        .header_img{
+            height: 100px;
+            width: 100px;
+            border: 1px solid gray;
+            border-radius: 50px;
+            margin-left: 140px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            
+
+        }
+        .name_container{
+            color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 10px;
+        }
+        .my_name{
+            font-size: 3rem;
+        }
+        .position_name{
+            display: flex;
+            align-self: self-start
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+        }
+        .contacts{
+            background-color: rgb(217, 206, 193);
+            width: 320px;
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 50px;
+
+
+        }
+        .contact_details{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .summary{
+            border-bottom: 2px solid black;
+            width: 510px;
+           
+        }
+        .work_experience{
+            border-bottom: 2px solid black;
+            width: 510px;
+        }
+        .descriptions{
+            margin-left: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .email_img {
+            height: 20px;
+            width: 20px;
+            border: 1px solid rgb(184, 166, 148);
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        .call_img{
+            height: 20px;
+            width: 20px;border: 1px solid rgb(184, 166, 148);
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        .location_img{
+            height: 20px;
+            width: 20px;border: 1px solid rgb(184, 166, 148);
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        .email{
+            display: flex;
+            flex-direction: row;}
+            .phone{
+                display: flex;
+            flex-direction: row;
+            }
+            .location{
+                display: flex;
+            flex-direction: row;
+            }
+            .institude{
+               margin-left: 20px;
+            }
+       .education{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       }  
+
+     .skills{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+     }
+
+    .summary_container{
+        margin-top: 20px;
+       
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .work_experience_container{
+        display: flex;flex-direction: column;
+        gap: 10px;
+    }
+    .achivement_job1{
+        margin-left: 40px;
+    }
+    .achivement_job2{
+        margin-left: 40px;
+    }
+    .reference{
+        border-bottom: 2px solid black;
+            width: 510px;
+    }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="apuroy.jpg" alt="Apu"
+            loading="lazy"
+            class="header_img">
+            <div class="name_container">
+                <p class="my_name">Apu Roy</p>
+                <p class="position_name">Student of Mathematics</p>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="contacts">
+                <div class="contact_details">
+                    <h3>Contact Details</h3>
+                    <div class="email">
+                        <img src="email.jpg" alt="Mail"
+                        class="email_img">
+                        <a href="">apuroy2785@gmail.com</a>
+                    </div>
+
+                    <div class="phone">
+                        <img src="call2.jpg" alt="C"
+                        class="call_img">
+                        <p>01786209895</p>
+                    </div>
+                    <div class="location">
+                        <img src="location.png" alt="L"
+                        class="location_img">
+                        <p>Jashore,Bangladesh</p>
+                    </div>
+    
+                </div>
+
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul class="institude">
+                        <li>
+                            <b>MSc in Mathematics</b>
+                            <p>BSMRSTU, Gopalganj</p>
+
+                        </li>
+                        <li>
+                            <b>HSC in Science</b>
+                            <p>BAF Shaheen College, Jashore</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skills_name">
+                    <p>Problem Solving - Expert</p>
+                    <p>Client Relation - Expert</p>
+                    <p>Video Editting - Expert</p>
+                    <p>Management - Expert</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="descriptions">
+
+                <div class="summary_container">
+                 <h3 class="summary">Summary  </h3>
+                 <p>I am a passionate and enthusiastic web developer eager to leverage my skills and creativity to build engaging and user-friendly websites.  I am committed to continuous learning and growth in the ever-evolving field of web development.</p>
+                </div>
+
+                <div class="work_experience_container">
+                    <h3 class="work_experience">Work Experience</h3>
+
+                    <div class="experience_one">
+                       <h4>Portfolio Manager, Company</h4>
+                       <p>March 2023-Present</p>
+                    </div>
+
+                <ul class="achivement_job2">
+                    <li>implied</li>
+                    <li>Going well</li>
+                    <li>Well performed</li>
+                </ul>
+
+                <div class="experience_two">
+                    <h4>Management, Company</h4>
+                    <p>March 2021-January 2023</p>
+                 </div>
+
+                 <ul class="achivement_job1">
+                    <li>Good impresion</li>
+                    <li>Success</li>
+                    <li>Well managed</li>
+                </ul>
+
+                </div>
+
+                <div class="references_container">
+                    <h3 class="reference">Reference</h3>
+                    <p>Getting soon</p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>
